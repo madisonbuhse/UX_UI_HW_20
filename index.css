@@ -288,12 +288,12 @@ li a:hover {
 }
 
 .learnbtn {
-    color: white;
+    color: #251D05;
     font-size: 2rem;
 }
 
 .learnbtn:hover {
-    color: #251D05;
+    color: white;
 }
 
 .percent {
@@ -305,6 +305,10 @@ li a:hover {
     margin: 0;
     padding: 0;
     width: 175px;
+}
+
+.percentage .card-body {
+    background-color: #A4BE73;
 }
 
 .percents {
@@ -321,4 +325,25 @@ li a:hover {
 .learnfooter {
     position: absolute;
     top: 1800px;
+}
+
+.location h1 {
+    color: #251D05;
+    left: 25%;
+}
+
+
+.top {
+    padding-left: 15%;
+    margin-top: 50px;
+}
+
+.sites .card {
+    height: 500px;
+}
+
+.sites .card-title {
+    color: #251D05;
+    font-size: 1.5rem;
+    text-align: left;
 }
