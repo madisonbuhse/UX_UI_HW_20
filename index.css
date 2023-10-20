@@ -1,0 +1,259 @@
+.main {
+    background-image: url(../images/backgroundweed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+body {
+    color: white;
+}
+
+.bg-dark {
+    background-color: #251D05 !important;
+}
+
+.navbar-brand {
+    font-family: 'Cedarville Cursive', sans-serif;
+    font-size: 3rem;
+    padding-left: 15px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #A4BE73;
+}
+
+.nav-item {
+    margin: 0px 15px;
+    font-size: 1.25rem;
+}
+
+.dropdown-menu {
+    background-color: rgba(248,249,250,1);
+    border: none;
+}
+
+.jumbotron {
+    height: 100vh-40px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.display-4 {
+    font-weight: 600;
+}
+
+.my-4 {
+    width: 400px;
+    background-color: white;
+    margin-left: 0;
+}
+
+.firstbtn {
+    margin-top: 40px;
+    padding: 10px 15px;
+    color: #251D05;
+    background-color: rgb(164,190,115,1);
+    border: none;
+    border-radius: 10px;
+    z-index: 10000;
+    height: 50px;
+}
+
+.firstbtn:hover {
+    color: #A4BE73;
+    background-color: #251D05;
+}
+
+.heroImg {
+    height: 800px;
+    padding: 0% 40%;
+    margin-top: -500px;
+}
+
+.hero {
+    padding-left: 15%;
+    padding-top: 150px;
+}
+
+.batteries {
+    background-image: url(/images/batteries.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+.edibles {
+    background-image: url(/images/Screenshot\ 2023-10-17\ at\ 12.44.39\ PM.png);
+    background-repeat: none;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+.extracts {
+    background-image: url(/images/extractheader.png);
+    background-repeat: none;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+.flower {
+    background-image: url(/images/flower.png);
+    background-repeat: none;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+.merch {
+    background-image: url(/images/backgroundweed.png);
+    background-repeat: none;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+footer {
+    background-color: #251D05;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: #A4BE73;
+    text-decoration: none;
+}
+
+.row {
+    margin: 50px;
+}
+
+.item-cards {
+    color: #251D05;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: block;
+    margin: 30px;
+}
+
+.card-text {
+    font-weight: 600;
+}
+
+.card-body {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    bottom: 0;
+}
+
+.card-title {
+    font-size: 10rem;
+}
+
+.card-header {
+    background-color: #A4BE73;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: row;
+}
+
+.stat {
+    color:white;
+    background-color:#A4BE73;
+}
+
+.bignumber {
+    font-weight: 800;
+    font-size: 10rem;
+}
+
+.problem {
+    background-color:#251D05;
+    text-align: left;
+    justify-items: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.text {
+    width: 60%;
+    padding: 50px 100px;
+    margin: auto;
+}
+
+.sub {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.jumbocustom {
+    background-color: #251D05;
+    margin-top: 50px;
+}
+
+.btncustom {
+    color: white;
+    background-color: #A4BE73;
+    border: none;
+    font-weight: 600;
+    font-size: 2rem;
+    z-index: 1000000;
+}
+
+.btncustom:hover {
+    color: #251D05;
+    border: none;
+}
+
+.learn {
+    color: #251D05;
+    list-style: auto;
+    margin: 100px;
+}
+
+.learn li {
+    margin: 30px auto;
+    font-size: 1.5rem;
+}
+
+.description {
+    width: 30%;
+    margin: 30px 0;
+}
+
+.product {
+    color: #251D05;
+}
+
+.product .hero {
+    margin-top: 200px;
+}
