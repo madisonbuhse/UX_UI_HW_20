@@ -1,12 +1,12 @@
 .main {
     background-image: url(../images/backgroundweed.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     color: white;
 }
 
 body {
     color: white;
+    height: 100%;
 }
 
 .bg-dark {
@@ -40,7 +40,7 @@ body {
 }
 
 .jumbotron {
-    height: 100vh-40px;
+    height: 100vh-566px;
     width: 100%;
     background-color: transparent;
 }
@@ -71,15 +71,23 @@ body {
     background-color: #251D05;
 }
 
+.mainimg {
+    position: absolute;
+    top: 150px;
+    left: 45%;
+    height: 800px;
+}
+
 .heroImg {
     height: 800px;
-    padding: 0% 40%;
-    margin-top: -500px;
+    padding: 0% 45%;
+    margin-top: -650px;
 }
 
 .hero {
     padding-left: 15%;
     padding-top: 150px;
+    margin-bottom: 0;
 }
 
 .batteries {
@@ -125,6 +133,7 @@ body {
 footer {
     background-color: #251D05;
     width: 100%;
+    height: 400px;
 }
 
 ul {
@@ -160,6 +169,13 @@ li a:hover {
 
 .card-text {
     font-weight: 600;
+    color: #251D05;
+    text-align: left;
+}
+
+.card p {
+    color: #251D05;
+    text-align: left;
 }
 
 .card-body {
@@ -167,6 +183,11 @@ li a:hover {
     text-align: center;
     padding: 30px;
     bottom: 0;
+}
+
+.card-body li {
+    color: #251D05;
+    text-align: left;
 }
 
 .card-title {
@@ -177,14 +198,24 @@ li a:hover {
     background-color: #A4BE73;
 }
 
+.card-img-top {
+    height: 300px;
+}
+
 .statistics {
     display: flex;
     flex-direction: row;
+    margin: 100px 0;
+    margin-top: 300px;
 }
 
 .stat {
     color:white;
     background-color:#A4BE73;
+}
+
+.stat p {
+    color: white;
 }
 
 .bignumber {
@@ -205,19 +236,19 @@ li a:hover {
 }
 
 .text {
-    width: 60%;
+    width: 80%;
     padding: 50px 100px;
     margin: auto;
 }
 
 .sub {
-    font-size: 1.5rem;
     font-weight: 300;
 }
 
 .jumbocustom {
     background-color: #251D05;
     margin-top: 50px;
+    bottom: 0;
 }
 
 .btncustom {
@@ -238,11 +269,12 @@ li a:hover {
     color: #251D05;
     list-style: auto;
     margin: 100px;
+    margin-top: 150px;
 }
 
 .learn li {
     margin: 30px auto;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .description {
@@ -252,8 +284,41 @@ li a:hover {
 
 .product {
     color: #251D05;
+    top: 0;
 }
 
-.product .hero {
-    margin-top: 200px;
+.learnbtn {
+    color: white;
+    font-size: 2rem;
+}
+
+.learnbtn:hover {
+    color: #251D05;
+}
+
+.percent {
+    color: #251D05;
+    font-size: 2rem;
+}
+
+.percentage {
+    margin: 0;
+    padding: 0;
+    width: 175px;
+}
+
+.percents {
+    margin-left: 0 !important;
+}
+
+.otheritems h1 {
+    font-size: 1.5rem;
+    background-color: #251D05;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.learnfooter {
+    position: absolute;
+    top: 1800px;
 }
