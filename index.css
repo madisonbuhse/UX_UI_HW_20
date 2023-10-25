@@ -1,5 +1,5 @@
 .main {
-    background-image: url(../images/backgroundweed.png);
+    background-image: url('../images/backgroundweed.png');
     background-size: 100%;
     color: white;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .batteries {
-    background-image: url(../images/batteries.jpg);
+    background-image: url('../images/batteries.jpg');
     background-repeat: none;
     background-size: cover;
     height: 300px;
@@ -99,7 +99,7 @@ body {
 }
 
 .edibles {
-    background-image: url(../images/Screenshot\ 2023-10-17\ at\ 12.44.39\ PM.png);
+    background-image: url('../images/Screenshot\ 2023-10-17\ at\ 12.44.39\ PM.png');
     background-repeat: none;
     background-size: cover;
     height: 300px;
@@ -107,7 +107,7 @@ body {
 }
 
 .extracts {
-    background-image: url(../images/extractheader.png);
+    background-image: url('../images/extractheader.png');
     background-repeat: none;
     background-size: cover;
     height: 300px;
@@ -115,7 +115,7 @@ body {
 }
 
 .flower {
-    background-image: url(../images/flower.png);
+    background-image: url('../images/flower.png');
     background-repeat: none;
     background-size: cover;
     height: 300px;
@@ -123,7 +123,7 @@ body {
 }
 
 .merch {
-    background-image: url(../images/backgroundweed.png);
+    background-image: url('../images/backgroundweed.png');
     background-repeat: none;
     background-size: cover;
     height: 300px;
